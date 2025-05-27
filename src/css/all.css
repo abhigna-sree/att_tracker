@@ -1,0 +1,19 @@
+body{
+    background-color: #EDE8F5;
+    color:black;
+}
+.card {
+    background-color: #ADBBDA;
+}
+.cr{
+    display: flex;
+    flex-direction: row;
+}
+table{
+    border: 10px;
+}
+.btncss{
+    border: 0;
+    background-color: #3D52A0;
+    color: white;
+}

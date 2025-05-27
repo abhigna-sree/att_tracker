@@ -1,0 +1,28 @@
+body {
+    background-color: #EDE8F5;
+    color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.profilecontainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.profile-card {
+    background-color: #ADBBDA;
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn-custom {
+    background-color: #699925;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #4c6c25;
+}
+.profilebtns{
+    margin: 20px;
+    color: #86C232;
+}

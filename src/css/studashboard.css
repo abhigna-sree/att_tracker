@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.full-screen {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.keynumbers .card .admincard {
+    transition: transform 0.3s ease;
+    height: 100%; /* Ensures all cards are equal height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ADBBDA;
+    margin: 50px;
+}
+
+.keynumbers .card:hover {
+    transform: scale(1.05);
+}
+
+.keynumbers .card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.keynumbers .card button {
+    width: 50%;
+    margin-top: auto;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-box{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    /* width: 30%; */
+    padding: 10px;
+}
+.appname{
+    font-size: 25px;
+    font-weight: 600;
+}
+.container1{
+    background-color: #EDE8F5;
+    color:black;
+}
+.carbut{
+    background-color: #3D52A0;
+    color: white;
+}
+ .cardbg {
+    background-color: #ADBBDA !important;
+}
+.admincard{
+    background-color: #ADBBDA;
+
+}
+.p-4{
+    margin: 10px;
+}
